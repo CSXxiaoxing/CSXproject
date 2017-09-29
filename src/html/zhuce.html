@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>会员注册</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/indexTop.css" />
+    <link rel="stylesheet" type="text/css" href="../css/zhuce.css" />
+    <script src="../lib/require.js" data-main="../js/zhuce"></script>
+</head>
+<body>
+    <div id="indexTop">
+    </div>
+    <div id="zhuce">
+        <div class="nei">
+            <!-- 注册页面 -->
+            <div class="zcbox">
+            <div class="neitop"></div>
+            <form action="#" class="zc">
+                <label><span>用户名：</span><input type="text" /></label>
+                <br/><p> </p><br/><br/>
+                <label><span>输入密码：</span><input type="text" /></label>
+                <br/><p> </p><br/><br/>
+                <label><span>重复密码：</span><input type="text" /></label>
+                <br/><p> </p><br/><br/>
+                <label><span>电子邮件：</span><input type="text" /></label>
+                <br/><p> </p><br/><br/>
+                <label><span>验证码：</span><input type="text" class="verify" /></label><i>3366</i>
+                <br/><p> </p><br/><br/>
+                <!-- ---勾选---- -->
+                <label><span></span><input type="checkbox" />我已阅读并同意<a href="#">《NO5用户注册协议》</a></label>
+
+                <!-- 注册按钮,登录 -->
+                <button></button>
+                <p>如果您已经是No5时尚广场的会员，请点击<a href="">[登录]</a></p>
+            </form>
+            </div>
+            <!-- 登录页面 -->
+            <div class="dlbox">
+            <div class="neitop2"></div>
+            <form action="#" class="dl">
+                <label><span>用户名：</span><input type="text" /></label>
+                <br/><p> </p><br/><br/>
+                <label><span>密码：</span><input type="text" /></label>
+                <br/><p> </p><br/><br/>
+                <label><span>验证码：</span><input type="text" class="verify" /></label><i>3366</i>
+                <br/><p> </p><br/><br/>
+                
+                <!-- 注册按钮,登录 -->
+                <button></button>
+                <p>使用合作网站账号登录NO5时尚广场</p>
+                <div class="wai">
+                <a href="/cooperate/alipay/authorize/alipay_auth_authorize.asp">
+                <img src="../css/img/union_alipay.jpg" alt="使用支付宝帐号登录">
+                </a>
+                <script language="javascript">
+                    <!--
+                    function toQzoneLogin(){
+                    var redirectUrl = "http%3a%2f%2fwww.no5.com.cn%2fInterface%2fQQLoginReturn";
+                    var url = "https://graph.qq.com/oauth/show?which=Login&display=pc&response_type=code&client_id=219361&redirect_uri=" + redirectUrl;
+                    var nw = window.open(url, "TencentLogin", "top=100,left=100,width=700,height=500,menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1");
+                    nw.focus()
+                    }
+                    //-->
+                </script>
+                <a href="javascript:void(0)" onclick="javascript:toQzoneLogin();">
+                <img src="../css/img/union_qq.jpg" alt="使用QQ帐号登录">
+                </a>
+                <script language="javascript">
+                    <!--
+                    function to360Login(){
+                    var nw = window.open("/cooperate/360cn/360cn-oauth/redirect.asp","360Login","top=100,left=100,width=575,height=460,menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1");
+                    nw.focus()
+                    }
+                    //-->
+                </script>
+                <a href="javascript:void(0)" onclick="javascript:to360Login();">
+                <img src="../css/img/union_360.jpg" alt="使用360帐号登录" style="margin-left: 6px;">
+                </a>
+                </div>
+            </form>
+            </div>
+        </div>
+        <script>
+            // 实现点击隐藏显示
+                let dl = document.querySelector('.zc:last-child');
+                let zcbox = document.querySelector('.zcbox');
+                let dlbox = document.querySelector('.dlbox');
+
+                dlbox.style.display='none';
+
+                dl.onclick=function(){
+                    zcbox.style.display='none';
+                    dlbox.style.display='block';
+                }
+        </script>
+    </div>
+    <div id="indexBottom">
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+#zhuce {
+  border: 1px solid #C6E6F3;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: left;
+  width: 958px; }
+  #zhuce .nei {
+    width: 671px;
+    margin-right: auto;
+    margin-left: auto; }
+    #zhuce .nei .neitop {
+      height: 41px;
+      width: 620px;
+      background-image: url("../css/img/reg-bg.png");
+      background-repeat: no-repeat;
+      background-position: -162px -69px;
+      margin-bottom: 37px;
+      margin-top: 40px;
+      margin-right: auto;
+      margin-left: auto; }
+    #zhuce .nei .neitop2 {
+      background-image: url("../css/img/reg-bg.png");
+      background-repeat: no-repeat;
+      background-position: -162px -153px;
+      height: 43px;
+      width: 439px;
+      margin-bottom: 37px;
+      margin-top: 40px;
+      margin-right: auto;
+      margin-left: auto; }
+    #zhuce .nei form {
+      margin: 0 auto;
+      width: 300px;
+      font-size: 14px; }
+      #zhuce .nei form label:nth-of-type(6) {
+        font-size: 12px; }
+        #zhuce .nei form label:nth-of-type(6) input {
+          width: 13px;
+          height: 13px; }
+        #zhuce .nei form label:nth-of-type(6) a {
+          color: #0080FF; }
+    #zhuce .nei form label > span {
+      display: inline-block;
+      width: 70px;
+      text-align: right; }
+    #zhuce .nei form input {
+      height: 23px;
+      width: 200px;
+      padding: 2px;
+      border: 1px solid #7f9db9; }
+    #zhuce .nei form .verify {
+      width: 80px; }
+    #zhuce .nei form i {
+      display: inline-block;
+      margin-left: 10px; }
+    #zhuce .nei .zc button, #zhuce .nei .dl button {
+      display: block;
+      margin: 20px auto;
+      height: 29px;
+      width: 90px;
+      padding: 0;
+      border: 0 none; }
+    #zhuce .nei .zc button {
+      background: url("../css/img/btn-reg.png"); }
+    #zhuce .nei .dl button {
+      background: url("../css/img/btn-login.png"); }
+    #zhuce .nei form > p {
+      font-size: 12px;
+      text-align: center; }
+      #zhuce .nei form > p a {
+        color: #0080FF; }
+    #zhuce .nei .wai a {
+      display: inline-block;
+      margin: 8px 0 0 10px; }

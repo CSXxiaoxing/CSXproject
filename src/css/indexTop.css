@@ -1,0 +1,307 @@
+#indexTop {
+  background: url("../css/img/headbg.jpg") repeat-x;
+  z-index: 300; }
+  #indexTop div:first-child {
+    height: 33px;
+    line-height: 33px;
+    z-index: 300; }
+  #indexTop .dl_top {
+    position: fixed;
+    width: 58px;
+    bottom: 8px;
+    margin-left: 1210px;
+    z-index: 300; }
+    #indexTop .dl_top dl {
+      height: 80px;
+      padding: 3px;
+      border: 1px solid #ccc;
+      text-align: center;
+      cursor: pointer;
+      background-color: #fff; }
+      #indexTop .dl_top dl dt {
+        width: 22px;
+        height: 24px;
+        margin: 8px 0 3px 13px; }
+    #indexTop .dl_top dl:first-child dt {
+      background: url("../css/img/icon.fw.png") 0 -24px; }
+    #indexTop .dl_top dl:last-child dt {
+      background: url("../css/img/icon.fw.png"); }
+  #indexTop a {
+    color: #666; }
+  #indexTop .l {
+    float: left; }
+  #indexTop .r {
+    float: right; }
+    #indexTop .r > li {
+      position: relative;
+      padding: 0 10px;
+      float: left; }
+    #indexTop .r > li:first-child {
+      padding-right: 20px; }
+      #indexTop .r > li:first-child ul {
+        display: none; }
+        #indexTop .r > li:first-child ul a {
+          text-decoration: none;
+          color: #666; }
+      #indexTop .r > li:first-child:hover ul {
+        display: block;
+        line-height: 20px; }
+        #indexTop .r > li:first-child:hover ul a:hover {
+          text-decoration: none;
+          color: #ff1a3a; }
+      #indexTop .r > li:first-child i {
+        width: 7px;
+        height: 4px;
+        background: url("../css/img/csx.jpg") no-repeat -252px -30px;
+        position: absolute;
+        top: 13px;
+        right: 8px;
+        overflow: hidden; }
+    #indexTop .r > li:first-child:hover {
+      background: #fff;
+      border: 1px solid #dcdcdc;
+      border-bottom: none;
+      border-top: none; }
+    #indexTop .r > li:first-child:hover ul {
+      display: block;
+      position: absolute;
+      top: 33px;
+      left: -1px;
+      width: 100%;
+      background: #fff;
+      border: 1px solid #dcdcdc;
+      padding-left: 10px;
+      border-top: none; }
+    #indexTop .r > li:last-child {
+      padding: 0 10px 0 25px;
+      color: #ff1a3a;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 30px;
+      font-style: italic; }
+      #indexTop .r > li:last-child span {
+        width: 16px;
+        height: 13px;
+        top: 9px;
+        left: 7px;
+        background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat -269px -30px;
+        position: absolute; }
+  #indexTop div:nth-of-type(2) {
+    height: 90px; }
+    #indexTop div:nth-of-type(2) h1 {
+      width: 320px;
+      padding: 15px 0 0 35px; }
+    #indexTop div:nth-of-type(2) li {
+      float: left; }
+    #indexTop div:nth-of-type(2) li.zhon {
+      padding-top: 20px; }
+      #indexTop div:nth-of-type(2) li.zhon input {
+        border: none;
+        border: 2px solid #02A3F0;
+        background: none;
+        float: left;
+        width: 341px;
+        height: 30px;
+        color: #666;
+        font-size: 14px;
+        padding: 8px 10px; }
+      #indexTop div:nth-of-type(2) li.zhon b {
+        width: 67px;
+        height: 30px;
+        line-height: 30px;
+        cursor: pointer;
+        overflow: hidden;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        float: right;
+        background: #02A3F0; }
+    #indexTop div:nth-of-type(2) li:last-child {
+      padding-left: 70px;
+      float: right;
+      background: url("../css/img/csx.jpg") no-repeat 0px -30px;
+      height: 44px;
+      line-height: 44px;
+      margin-top: 20px;
+      position: relative;
+      width: 195px; }
+  #indexTop .nav {
+    height: 40px;
+    background: url("../css/img/navbg.jpg");
+    position: relative;
+    z-index: 100; }
+    #indexTop .nav > ul > li {
+      float: left;
+      height: 40px;
+      font-size: 16px;
+      padding-top: 8px;
+      text-align: center; }
+      #indexTop .nav > ul > li a {
+        color: #fff;
+        padding: 0 30px;
+        background: url("../css/img/navlibg.jpg") no-repeat left center; }
+      #indexTop .nav > ul > li:last-child a:hover {
+        color: #f00; }
+      #indexTop .nav > ul > li:nth-of-type(7) a {
+        color: #f00; }
+      #indexTop .nav > ul > li:nth-of-type(8) a {
+        color: #f00; }
+      #indexTop .nav > ul > li:nth-of-type(2) a:hover {
+        color: #f00; }
+      #indexTop .nav > ul > li:nth-of-type(3) a:hover {
+        color: #f00; }
+      #indexTop .nav > ul > li:nth-of-type(4) a:hover {
+        color: #f00; }
+      #indexTop .nav > ul > li:nth-of-type(5) a:hover {
+        color: #f00; }
+      #indexTop .nav > ul > li:nth-of-type(6) a:hover {
+        color: #f00; }
+      #indexTop .nav > ul > li:first-child {
+        background: url("../css/img/csx.jpg") 0 -117px;
+        width: 230px;
+        position: relative; }
+        #indexTop .nav > ul > li:first-child a {
+          background: none; }
+      #indexTop .nav > ul > li .nav2 {
+        display: none; }
+      #indexTop .nav > ul > li ul {
+        position: absolute;
+        left: 0;
+        top: 40px;
+        z-index: 2;
+        background: #fff;
+        text-align: left;
+        width: 230px;
+        background: #f8f8f8; }
+        #indexTop .nav > ul > li ul li {
+          padding: 13px 0 6px 20px; }
+        #indexTop .nav > ul > li ul a {
+          color: #666;
+          padding: 0;
+          margin-right: 13px;
+          font-size: 12px; }
+        #indexTop .nav > ul > li ul strong a {
+          color: #333;
+          font-size: 14px; }
+
+#indexBottom .foot {
+  height: 200px;
+  background: url(../css/img/indexboot.jpg) repeat-x;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 30px auto;
+  overflow: hidden;
+  width: 1000px; }
+  #indexBottom .foot .fl {
+    float: left;
+    width: 240px;
+    padding-left: 44px;
+    margin-right: 20px; }
+  #indexBottom .foot .fl p:nth-of-type(1) {
+    background: url("../css/img/csx.jpg") no-repeat 0 -157px;
+    height: 49px;
+    width: 197px; }
+    #indexBottom .foot .fl p:nth-of-type(1) span:first-child {
+      color: #ff1a3a;
+      font-size: 18px;
+      font-family: Arial;
+      padding-left: 72px;
+      font-style: italic;
+      font-weight: bold;
+      padding-top: 8px; }
+    #indexBottom .foot .fl p:nth-of-type(1) span:last-child {
+      display: block;
+      color: #444;
+      text-align: right;
+      width: 197px; }
+  #indexBottom .foot .fl p:nth-of-type(2) {
+    background: url("../css/img/wb.jpg") no-repeat;
+    width: 197px;
+    height: 22px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 30px;
+    position: relative; }
+    #indexBottom .foot .fl p:nth-of-type(2) span {
+      display: inline-block;
+      position: absolute;
+      left: 33px;
+      top: 2px; }
+    #indexBottom .foot .fl p:nth-of-type(2) a {
+      float: right; }
+    #indexBottom .foot .fl p:nth-of-type(2) img {
+      display: inline-block; }
+  #indexBottom .foot .fl p:nth-of-type(3) {
+    position: relative;
+    margin-top: 20px; }
+    #indexBottom .foot .fl p:nth-of-type(3) a {
+      display: inline-block;
+      position: absolute;
+      top: -1px;
+      right: 0; }
+    #indexBottom .foot .fl p:nth-of-type(3) input {
+      width: 132px;
+      height: 24px;
+      line-height: 24px;
+      background: #fff;
+      border: 1px solid #e8e8e8;
+      color: #666;
+      padding-left: 4px;
+      font-size: 12px; }
+  #indexBottom .foot .fl p:nth-of-type(4) {
+    color: #9b9b9b;
+    line-height: 22px;
+    padding-left: 3px;
+    margin-top: 10px; }
+  #indexBottom .foot .fr {
+    padding-top: 11px;
+    padding-left: 33px;
+    float: left;
+    background: url(../css/img/ewm2.jpg) no-repeat 30px 104px;
+    width: 125px;
+    height: 150px; }
+  #indexBottom .foot ul li {
+    float: left; }
+    #indexBottom .foot ul li dl {
+      width: 100px;
+      padding-left: 25px;
+      border-left: 1px solid #e1e1e1;
+      height: 150px; }
+    #indexBottom .foot ul li dt {
+      margin-bottom: 14px; }
+    #indexBottom .foot ul li dt a {
+      font-size: 16px;
+      color: #444; }
+    #indexBottom .foot ul li dd a {
+      height: 22px;
+      line-height: 22px;
+      color: #999; }
+
+#indexBottom .esc {
+  width: 880px;
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  margin: 0 auto; }
+  #indexBottom .esc > p {
+    text-align: center;
+    line-height: 44px;
+    height: 44px;
+    font-size: 14px;
+    color: #444; }
+  #indexBottom .esc ul li {
+    width: 140px;
+    height: 110px;
+    float: left;
+    margin: 0 40px; }
+    #indexBottom .esc ul li img {
+      width: 108px;
+      height: 50px;
+      margin-bottom: 10px;
+      margin-left: 16px; }
+    #indexBottom .esc ul li p {
+      text-align: center;
+      line-height: 20px;
+      height: 20px;
+      font-size: 13px;
+      color: #444; }

@@ -2,13 +2,15 @@
 * @Author: Marte
 * @Date:   2017-09-23 10:18:13
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-23 10:24:20
+* @Last Modified time: 2017-09-23 12:05:42
 */
 body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,li,form,input,textarea{margin: 0;padding: 0;}
 ul,li{list-style:none;}
 a{text-decoration: none;}
 *{box-sizing: border-box;}
 
+/*字体*/
+body{font-size:12px;color:#666;}
 /*清楚浮动，解决高度塌陷*/
 .clearfix:after{
     display:block;
@@ -25,4 +27,4 @@ a{text-decoration: none;}
 
 .core{width:1200px; margin:0 auto;}
 
-i,a,img{ display: block; }
+i,img{ display: block; }

@@ -1,0 +1,208 @@
+#main{
+    .banner{
+        height: 400px;position:relative;
+        ul{width: 100%;height: 400px;position:relative;
+        li{width: 100%;position:absolute;
+            height: 400px;float: left;
+            &:first-child{background:rgb(181, 226, 255);
+            ul{position:absolute;left: 1112px;margin: 0;width: 190px;height: 390px;
+                li{height: 130px;}
+                li:nth-of-type(2){position:absolute;top: 130px;}
+                li:nth-of-type(3){position:absolute;top: 260px;}
+             }
+            }
+            &:last-child{background:rgb(254, 234, 243);
+            ul{position:absolute;left: 1112px;width: 190px;height: 390px;
+                li{height: 130px;}
+                li:nth-of-type(2){position:absolute;top: 130px;}
+                li:nth-of-type(3){position:absolute;top: 260px;}
+             } }
+            .bn{position:relative;}
+            .bn img{height: 400px;width: 765px; position:absolute;left:230px;}
+        }}
+        // 页码
+        .yema{position:absolute;bottom:12px;left:360px;height: 16px;
+            span{width:8px;height:8px;border-radius:50%;background:#333;display:inline-block;margin-right: 5px;}}
+    }
+    .guanbo{
+        padding-left:250px;
+        ul:last-child{li{float: left;}}
+    }
+    // 限时抢购
+    .salesTime{height: 530px;border-bottom: 1px solid #e4e4e4;
+        h2{border-bottom: 2px solid #ff8c8f;
+            padding: 30px 0 8px 2px;
+            margin-bottom: 10px;}
+        a{position: relative;
+            float: left;
+            width: 287px;
+            border: 1px solid #e4e4e4;
+            padding: 1px;
+            height: 400px;
+            margin-right: 12px;
+            img{width: 260px;
+            height: 260px;
+            margin: 13px;}}
+        a:hover{border:1px solid #f60;}
+        .gou{position: absolute;
+        top: 362px;
+        left: -1px;
+        background: url('../css/img/time02.jpg') no-repeat;
+        width: 287px;
+        height: 55px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: microsoft yahei;
+        padding-top: 10px;
+        padding-left: 20px;}
+        p:first-child{    font-weight: bold;
+        line-height: 18px;
+        height: 32px;
+        padding: 0 13px;
+        width: 261px;
+        overflow: hidden;
+        text-overflow: ellipsis;}
+        p:last-child{    position: absolute;
+        top: 424px;
+        right: 10px;}
+    }
+    // tab页
+    .salesTab{
+        .tab{
+            width: 1200px;
+            height: 40px;
+            line-height: 40px;
+            background: url('../css/img/tabsli_bg.jpg') repeat-x;
+            font-family: microsoft yahei;
+            font-size: 18px;
+            font-weight: bold;
+            border-bottom: 2px solid #d0d0d0;
+            _border-bottom: 1px solid #d0d0d0;
+            position: relative;
+            span{display:inline-block;float: left;float: left;
+            color: #333;
+            cursor: pointer;padding: 0 82px;
+            background: url('../css/img/tabsli_bg.jpg') no-repeat right bottom;}
+            .tab_boybg{position: absolute;
+            top: 35px;
+            left: 0;
+            height: 5px;
+            border-bottom: 2px solid #0094ff;
+            overflow: hidden;
+            text-align: center;}
+        }
+        div.tab01{width: 1200px;height: 418px;background: #26c472;}
+    }
+    // 品牌页
+    .salesPin{
+        // width: 500px;
+        h2{
+        font-size: 18px;
+        color: #333;
+        // float: left;
+        font-weight: bold;
+        padding-left: 2px;
+        width: 230px;
+        height: 40px;
+        line-height: 40px;
+        }
+        
+        .tu{
+            a{float: left;
+            width: 236px;
+            height: 300px;
+            margin-right: 4px;}}
+    }
+    // 相同部分
+    .topl{float: right;
+            display: inline-block;
+            height: 40px;
+            width: 1200px;
+            margin-top: 10px;position:relative;
+            border-bottom:2px solid #0094ff;
+            margin-bottom:3px;
+            span{ 
+            a{text-decoration: none;
+            color: #666;}
+            height: 25px;position:absolute;right: 0;top: 0px;
+                line-height: 25px;
+                padding: 0 15px;
+                float: left;
+            background: url('../css/img/brangtit.jpg') no-repeat right center;}
+    }
+    %salesBox{height: 538px;border-bottom: 1px solid #e4e4e4;clear: both;}
+    %a{float: left;width: 268px;height: 480px;}
+    %b{width: 690px;float: left;}
+    %c{float: right;width: 218px;margin-left: 24px;}
+    %d{width: 1188px;height: 58px;float: left;border-top: 1px solid #e4e4e4;
+        a{float: left;margin: 11px 12px;display: inline;}
+    }
+    // 护肤
+    .salesHf{
+        @extend %salesBox;
+        .hufu-a{@extend %a}
+        .hufu-b{@extend %b}
+        .hufu-c{@extend %c}
+        .hufu-d{@extend %d}
+        h2{font-size: 16px;line-height: 32px;height: 32px;color: #ff1a3a;text-align: center;width: 218px;}
+    }
+    // 彩妆
+    .salesCz{
+        @extend %salesBox;
+        .caiz-a{@extend %a}
+        .caiz-b{@extend %b}
+        .caiz-c{@extend %c}
+        .caiz-d{@extend %d}
+        h2{font-size: 16px;line-height: 32px;height: 32px;color: #ff1a3a;text-align: center;width: 218px;}
+    }
+    // 香水
+    .perfume{
+        @extend %salesBox;
+        .perfume-a{@extend %a;}
+        .perfume-b{@extend %b;
+            .b01{float: left;width: 355px;height: 480px;margin-right: 1px;position:relative;
+                img{margin: 0;}
+                a{float: left;width: 177px;height: 203px;margin-right: 1px;}
+                a:first-child{width: 355px;height: 276px;margin-bottom: 1px;}
+                a:last-child{position:absolute;bottom: 0;right: -1px;}
+            }
+            .b02{float: left;width: 275px;height: 480px;
+            }
+        }
+        .perfume-c{@extend %c}
+        .perfume-d{@extend %d}
+        h2{font-size: 16px;line-height: 32px;height: 32px;color: #ff1a3a;text-align: center;width: 218px;}
+    }
+    // 男士
+    .men{
+        @extend %salesBox;
+        .men-a{width: 614px;float: left;height: 480px;}
+        .men-b{float: left;width: 344px;height: 480px;}
+        .men-c{@extend %c}
+        .men-d{@extend %d}
+        h2{font-size: 16px;line-height: 32px;height: 32px;color: #ff1a3a;text-align: center;width: 218px;}
+    }
+    // 美体美发
+    .meiti{
+        div:first-child img{width: 229px;height: 40px;}
+        @extend %salesBox;
+        .meiti-a{@extend %a}
+        .meiti-b{@extend %b}
+        .meiti-c{@extend %c}
+        .meiti-d{@extend %d}
+        h2{font-size: 16px;line-height: 32px;height: 32px;color: #ff1a3a;text-align: center;width: 218px;}
+    }
+    // 底部美容质询
+    .refer{
+        .l{float: left;width: 765px;border: 1px solid #e4e4e4;margin-top: 25px;border-top: 2px solid #d0d0d0;padding: 1px 20px;height: 478px;overflow: hidden;
+            h2{font-size: 16px;color: #333;height: 36px;line-height: 36px;border-bottom: 1px solid #e4e4e4;padding-left: 4px;margin-bottom: 20px;}
+            div:nth-of-type(1){float: left;width: 250px;img{width: 250px;}}
+            div:nth-of-type(2){float: left;width: 465px;}
+            h4{color: #545454;font-size: 14px;font-weight: bold;margin-top: 13px;margin-bottom: 5px;height: 16px;line-height: 16px;overflow: hidden;}
+            p{color: #999;line-height: 22px;height: 48px;overflow: hidden;text-overflow: ellipsis;a{color: #c80f2f;}}
+        }
+
+        .r{}
+    } 
+}

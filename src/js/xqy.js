@@ -1,0 +1,19 @@
+require.config({
+    paths:{
+        jquery:'../lib/jquery-3.2.1',
+        TBload:'./TBload',
+        TBjs:'./TBjs',
+        xqyjs:'./xqyjs'
+    },
+    shim:{
+        TBload:['jquery'],
+        TBjs:['jquery','TBload']
+    }
+});
+require(['jquery','TBload','TBjs','xqyjs'],function($,TB,tb,xqy){
+    TB()[0];TB()[1];
+    setTimeout(function(){
+        tb('XQY');
+    },500)
+    xqy();
+})

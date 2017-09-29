@@ -1,0 +1,51 @@
+#zhuce{    
+    border: 1px solid #C6E6F3;
+    margin:10px auto;
+    // margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+    width: 958px;
+    // float: left;
+    .nei{
+        width: 671px;
+        margin-right: auto;
+        margin-left: auto;
+        .neitop{
+            height: 41px;
+            width: 620px;
+            background-image: url('../css/img/reg-bg.png');
+            background-repeat: no-repeat;
+            background-position: -162px -69px;
+            margin-bottom: 37px;
+            margin-top: 40px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .neitop2{
+            background-image: url('../css/img/reg-bg.png');
+            background-repeat: no-repeat;
+            background-position: -162px -153px;
+            height: 43px;
+            width: 439px;
+            margin-bottom: 37px;
+            margin-top: 40px;
+            margin-right: auto;
+            margin-left: auto;}
+        form{margin:0 auto;width: 300px;font-size:14px;
+            label:nth-of-type(6){
+                font-size:12px;
+                input{width: 13px;height: 13px;}
+                a{color: #0080FF;}
+            }
+        }
+        form label>span{display:inline-block;width: 70px;text-align:right;}
+        form input{height: 23px;width: 200px;padding: 2px;border: 1px solid #7f9db9;}
+        form .verify{width: 80px;}
+        form i{display:inline-block;margin-left:10px;}
+        %bth{display:block;margin:20px auto;height: 29px;width: 90px;padding:0;border:0 none;}
+        .zc button{@extend %bth;background:url('../css/img/btn-reg.png');}
+        .dl button{@extend %bth;background:url('../css/img/btn-login.png')}
+        form>p{font-size:12px;text-align:center;a{color: #0080FF;}}
+        .wai a{display:inline-block;margin:8px 0 0 10px;}
+    }
+}

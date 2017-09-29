@@ -1,0 +1,337 @@
+#main .banner {
+  height: 400px;
+  position: relative; }
+  #main .banner ul {
+    width: 100%;
+    height: 400px;
+    position: relative; }
+    #main .banner ul li {
+      width: 100%;
+      position: absolute;
+      height: 400px;
+      float: left; }
+      #main .banner ul li:first-child {
+        background: #b5e2ff; }
+        #main .banner ul li:first-child ul {
+          position: absolute;
+          left: 1112px;
+          margin: 0;
+          width: 190px;
+          height: 390px; }
+          #main .banner ul li:first-child ul li {
+            height: 130px; }
+          #main .banner ul li:first-child ul li:nth-of-type(2) {
+            position: absolute;
+            top: 130px; }
+          #main .banner ul li:first-child ul li:nth-of-type(3) {
+            position: absolute;
+            top: 260px; }
+      #main .banner ul li:last-child {
+        background: #feeaf3; }
+        #main .banner ul li:last-child ul {
+          position: absolute;
+          left: 1112px;
+          width: 190px;
+          height: 390px; }
+          #main .banner ul li:last-child ul li {
+            height: 130px; }
+          #main .banner ul li:last-child ul li:nth-of-type(2) {
+            position: absolute;
+            top: 130px; }
+          #main .banner ul li:last-child ul li:nth-of-type(3) {
+            position: absolute;
+            top: 260px; }
+      #main .banner ul li .bn {
+        position: relative; }
+      #main .banner ul li .bn img {
+        height: 400px;
+        width: 765px;
+        position: absolute;
+        left: 230px; }
+  #main .banner .yema {
+    position: absolute;
+    bottom: 12px;
+    left: 360px;
+    height: 16px; }
+    #main .banner .yema span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #333;
+      display: inline-block;
+      margin-right: 5px; }
+
+#main .guanbo {
+  padding-left: 250px; }
+  #main .guanbo ul:last-child li {
+    float: left; }
+
+#main .salesTime {
+  height: 530px;
+  border-bottom: 1px solid #e4e4e4; }
+  #main .salesTime h2 {
+    border-bottom: 2px solid #ff8c8f;
+    padding: 30px 0 8px 2px;
+    margin-bottom: 10px; }
+  #main .salesTime a {
+    position: relative;
+    float: left;
+    width: 287px;
+    border: 1px solid #e4e4e4;
+    padding: 1px;
+    height: 400px;
+    margin-right: 12px; }
+    #main .salesTime a img {
+      width: 260px;
+      height: 260px;
+      margin: 13px; }
+  #main .salesTime a:hover {
+    border: 1px solid #f60; }
+  #main .salesTime .gou {
+    position: absolute;
+    top: 362px;
+    left: -1px;
+    background: url("../css/img/time02.jpg") no-repeat;
+    width: 287px;
+    height: 55px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: microsoft yahei;
+    padding-top: 10px;
+    padding-left: 20px; }
+  #main .salesTime p:first-child {
+    font-weight: bold;
+    line-height: 18px;
+    height: 32px;
+    padding: 0 13px;
+    width: 261px;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  #main .salesTime p:last-child {
+    position: absolute;
+    top: 424px;
+    right: 10px; }
+
+#main .salesTab .tab {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  background: url("../css/img/tabsli_bg.jpg") repeat-x;
+  font-family: microsoft yahei;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #d0d0d0;
+  _border-bottom: 1px solid #d0d0d0;
+  position: relative; }
+  #main .salesTab .tab span {
+    display: inline-block;
+    float: left;
+    float: left;
+    color: #333;
+    cursor: pointer;
+    padding: 0 82px;
+    background: url("../css/img/tabsli_bg.jpg") no-repeat right bottom; }
+  #main .salesTab .tab .tab_boybg {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    height: 5px;
+    border-bottom: 2px solid #0094ff;
+    overflow: hidden;
+    text-align: center; }
+
+#main .salesTab div.tab01 {
+  width: 1200px;
+  height: 418px;
+  background: #26c472; }
+
+#main .salesPin h2 {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  padding-left: 2px;
+  width: 230px;
+  height: 40px;
+  line-height: 40px; }
+
+#main .salesPin .tu a {
+  float: left;
+  width: 236px;
+  height: 300px;
+  margin-right: 4px; }
+
+#main .topl {
+  float: right;
+  display: inline-block;
+  height: 40px;
+  width: 1200px;
+  margin-top: 10px;
+  position: relative;
+  border-bottom: 2px solid #0094ff;
+  margin-bottom: 3px; }
+  #main .topl span {
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    line-height: 25px;
+    padding: 0 15px;
+    float: left;
+    background: url("../css/img/brangtit.jpg") no-repeat right center; }
+    #main .topl span a {
+      text-decoration: none;
+      color: #666; }
+
+#main .salesHf, #main .salesCz, #main .perfume, #main .men, #main .meiti {
+  height: 538px;
+  border-bottom: 1px solid #e4e4e4;
+  clear: both; }
+
+#main .salesHf .hufu-a, #main .salesCz .caiz-a, #main .perfume .perfume-a, #main .meiti .meiti-a {
+  float: left;
+  width: 268px;
+  height: 480px; }
+
+#main .salesHf .hufu-b, #main .salesCz .caiz-b, #main .perfume .perfume-b, #main .meiti .meiti-b {
+  width: 690px;
+  float: left; }
+
+#main .salesHf .hufu-c, #main .salesCz .caiz-c, #main .perfume .perfume-c, #main .men .men-c, #main .meiti .meiti-c {
+  float: right;
+  width: 218px;
+  margin-left: 24px; }
+
+#main .salesHf .hufu-d, #main .salesCz .caiz-d, #main .perfume .perfume-d, #main .men .men-d, #main .meiti .meiti-d {
+  width: 1188px;
+  height: 58px;
+  float: left;
+  border-top: 1px solid #e4e4e4; }
+  #main .salesHf .hufu-d a, #main .salesCz .caiz-d a, #main .perfume .perfume-d a, #main .men .men-d a, #main .meiti .meiti-d a {
+    float: left;
+    margin: 11px 12px;
+    display: inline; }
+
+#main .salesHf h2 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
+  color: #ff1a3a;
+  text-align: center;
+  width: 218px; }
+
+#main .salesCz h2 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
+  color: #ff1a3a;
+  text-align: center;
+  width: 218px; }
+
+#main .perfume .perfume-b .b01 {
+  float: left;
+  width: 355px;
+  height: 480px;
+  margin-right: 1px;
+  position: relative; }
+  #main .perfume .perfume-b .b01 img {
+    margin: 0; }
+  #main .perfume .perfume-b .b01 a {
+    float: left;
+    width: 177px;
+    height: 203px;
+    margin-right: 1px; }
+  #main .perfume .perfume-b .b01 a:first-child {
+    width: 355px;
+    height: 276px;
+    margin-bottom: 1px; }
+  #main .perfume .perfume-b .b01 a:last-child {
+    position: absolute;
+    bottom: 0;
+    right: -1px; }
+
+#main .perfume .perfume-b .b02 {
+  float: left;
+  width: 275px;
+  height: 480px; }
+
+#main .perfume h2 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
+  color: #ff1a3a;
+  text-align: center;
+  width: 218px; }
+
+#main .men .men-a {
+  width: 614px;
+  float: left;
+  height: 480px; }
+
+#main .men .men-b {
+  float: left;
+  width: 344px;
+  height: 480px; }
+
+#main .men h2 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
+  color: #ff1a3a;
+  text-align: center;
+  width: 218px; }
+
+#main .meiti div:first-child img {
+  width: 229px;
+  height: 40px; }
+
+#main .meiti h2 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
+  color: #ff1a3a;
+  text-align: center;
+  width: 218px; }
+
+#main .refer .l {
+  float: left;
+  width: 765px;
+  border: 1px solid #e4e4e4;
+  margin-top: 25px;
+  border-top: 2px solid #d0d0d0;
+  padding: 1px 20px;
+  height: 478px;
+  overflow: hidden; }
+  #main .refer .l h2 {
+    font-size: 16px;
+    color: #333;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 4px;
+    margin-bottom: 20px; }
+  #main .refer .l div:nth-of-type(1) {
+    float: left;
+    width: 250px; }
+    #main .refer .l div:nth-of-type(1) img {
+      width: 250px; }
+  #main .refer .l div:nth-of-type(2) {
+    float: left;
+    width: 465px; }
+  #main .refer .l h4 {
+    color: #545454;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden; }
+  #main .refer .l p {
+    color: #999;
+    line-height: 22px;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    #main .refer .l p a {
+      color: #c80f2f; }

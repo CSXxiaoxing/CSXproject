@@ -1,0 +1,20 @@
+require.config({
+    paths:{
+        jquery:'../lib/jquery-3.2.1',
+        TBload:'./TBload',
+        TBjs:'./TBjs',
+        zhucedl:'./zhucedl'
+    },
+    shim:{
+        TBload:['jquery'],
+        TBjs:['jquery','TBload'],
+        zhucedl:['jquery','TBload','TBjs']
+    }
+});
+require(['jquery','TBload','TBjs','zhucedl'],function($,TB,tb,zc){
+    TB()[0];TB()[1];
+    setTimeout(function(){
+        tb();
+    },500)
+    zc();
+})
