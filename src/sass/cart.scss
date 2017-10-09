@@ -1,0 +1,44 @@
+#cart{
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    .cartmen{border:1px solid #ccc;}
+    table{width: 948px;}
+    tbody{
+
+        tr:first-child{
+            padding:0;text-align: center;
+            color: #333333;
+            background: url('../css/img/cart-bg.png');
+            width: 948px;
+            height: 33px;
+            td{text-align: center;}
+        }
+        .cart_bo{
+            padding:0;text-align: center;
+            color: #333333;
+            .inpu{width: 43px;}
+        }
+    }
+    .men{
+        font-size: 14px;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333333;
+        border-top:1px solid #ccc;
+        p{
+            font-weight: bold;
+            span{color: #FF0000;font-size: 12px;}
+        }
+    }
+    .car-jie{
+        height: 30px;
+        margin-top: 15px;
+        button{float: right;}
+        button:last-child{height: 27px;margin-right:10px;background: #26c472}
+        .but{margin: 0 10px;padding: 0;border:0 none;}
+    }
+}

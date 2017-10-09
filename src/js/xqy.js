@@ -16,4 +16,5 @@ require(['jquery','TBload','TBjs','xqyjs'],function($,TB,tb,xqy){
         tb('XQY');
     },500)
     xqy();
+    
 })

@@ -18,12 +18,12 @@
             <div class="zcbox">
             <div class="neitop"></div>
             <form action="#" class="zc">
-                <label><span>用户名：</span><input type="text" /></label>
+                <label><span>用户名：</span><input type="text" class="username"/></label>
+                <br/><p class="user"> </p><br/><br/>
+                <label><span>输入密码：</span><input type="password" class="nm"/></label>
                 <br/><p> </p><br/><br/>
-                <label><span>输入密码：</span><input type="text" /></label>
-                <br/><p> </p><br/><br/>
-                <label><span>重复密码：</span><input type="text" /></label>
-                <br/><p> </p><br/><br/>
+                <label><span>重复密码：</span><input type="password" class="nm2"/></label>
+                <br/><p class="nm2_tops"> </p><br/><br/>
                 <label><span>电子邮件：</span><input type="text" /></label>
                 <br/><p> </p><br/><br/>
                 <label><span>验证码：</span><input type="text" class="verify" /></label><i>3366</i>
@@ -32,23 +32,24 @@
                 <label><span></span><input type="checkbox" />我已阅读并同意<a href="#">《NO5用户注册协议》</a></label>
 
                 <!-- 注册按钮,登录 -->
-                <button></button>
-                <p>如果您已经是No5时尚广场的会员，请点击<a href="">[登录]</a></p>
+                <button class="zcbut"></button>
+                <p>如果您已经是No5时尚广场的会员，请点击<a class="DL" style="cursor:pointer">[登录]</a></p>
             </form>
             </div>
             <!-- 登录页面 -->
             <div class="dlbox">
             <div class="neitop2"></div>
             <form action="#" class="dl">
-                <label><span>用户名：</span><input type="text" /></label>
+                <label><span>用户名：</span><input type="text" class="dlname"/></label>
                 <br/><p> </p><br/><br/>
-                <label><span>密码：</span><input type="text" /></label>
+                <label><span>密码：</span><input type="text"  class="dlpass"/></label>
                 <br/><p> </p><br/><br/>
                 <label><span>验证码：</span><input type="text" class="verify" /></label><i>3366</i>
                 <br/><p> </p><br/><br/>
                 
                 <!-- 注册按钮,登录 -->
-                <button></button>
+                <p class="p012"></p>
+                <button class="dlbut"></button>
                 <p>使用合作网站账号登录NO5时尚广场</p>
                 <div class="wai">
                 <a href="/cooperate/alipay/authorize/alipay_auth_authorize.asp">
@@ -84,7 +85,7 @@
         </div>
         <script>
             // 实现点击隐藏显示
-                let dl = document.querySelector('.zc:last-child');
+                let dl = document.querySelector('.zc .DL');
                 let zcbox = document.querySelector('.zcbox');
                 let dlbox = document.querySelector('.dlbox');
 

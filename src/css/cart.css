@@ -1,0 +1,50 @@
+#cart {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 12px; }
+  #cart .cartmen {
+    border: 1px solid #ccc; }
+  #cart table {
+    width: 948px; }
+  #cart tbody tr:first-child {
+    padding: 0;
+    text-align: center;
+    color: #333333;
+    background: url("../css/img/cart-bg.png");
+    width: 948px;
+    height: 33px; }
+    #cart tbody tr:first-child td {
+      text-align: center; }
+  #cart tbody .cart_bo {
+    padding: 0;
+    text-align: center;
+    color: #333333; }
+    #cart tbody .cart_bo .inpu {
+      width: 43px; }
+  #cart .men {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    border-top: 1px solid #ccc; }
+    #cart .men p {
+      font-weight: bold; }
+      #cart .men p span {
+        color: #FF0000;
+        font-size: 12px; }
+  #cart .car-jie {
+    height: 30px;
+    margin-top: 15px; }
+    #cart .car-jie button {
+      float: right; }
+    #cart .car-jie button:last-child {
+      height: 27px;
+      margin-right: 10px;
+      background: #26c472; }
+    #cart .car-jie .but {
+      margin: 0 10px;
+      padding: 0;
+      border: 0 none; }

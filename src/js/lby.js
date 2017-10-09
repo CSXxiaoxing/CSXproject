@@ -17,4 +17,11 @@ require(['jquery','TBload','TBjs','lbyjs'],function($,TB,tb,lby){
         tb();
     },500)
     lby();
+    // 点击存cookie并跳转
+    $('#content').children().click(function(){
+        var idid = $(this).find('img').attr('data-id')
+        document.cookie='id='+idid+';path=/';
+        console.log(idid)
+        console.log(666)
+    })
 })

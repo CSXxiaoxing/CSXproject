@@ -6,6 +6,18 @@ define(['jquery','TBload'],function($){
     $('ul.l span a').click(function(){
         document.cookie = 'click='+$(this).text()+';path=/';
     })
+    // 购物车数量
+    var car_cookie = document.cookie.split('; ');
+    for(var i=0 ; i<car_cookie.length ; i++){
+        if(car_cookie[i].split('=')[0]=='username'){
+            var n = car_cookie[i].split('=')[1];
+            $('.l li i').html(n+'用户 ');
+        }
+        if(car_cookie[i].split('=')[0]=='car'){
+            var c = car_cookie[i].split('=')[1];
+            $('.goucar span').html(c);
+        }
+    }
     // 时间判断
     var shij = $('#indexTop .shij');
     var time = new Date().getHours();

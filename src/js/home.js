@@ -11,7 +11,7 @@ require.config({
 require(['jquery','TBload','homelbt','TBjs','shuju'],function($,TB,lb,tb,sj){
 
     TB('index')[0];TB('index')[1];
-
+    lb();
     setTimeout(function(){
         tb('index');
     },500)

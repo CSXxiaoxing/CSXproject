@@ -54,12 +54,17 @@
           background-color: #EAFFFF;
           moz-opacity: 0.3;
           opacity: 0.3; }
+      #xqy .part01 .p01_l img.zanshi {
+        position: absolute;
+        overflow: hidden;
+        z-index: 999;
+        height: 350px;
+        width: 350px; }
       #xqy .part01 .p01_l .zoom {
         position: absolute;
         visibility: hidden;
-        top: 221px;
+        top: 225px;
         width: 391px;
-        left: 480px;
         height: 389px;
         border: 1px solid #C5C5C5;
         overflow: hidden;

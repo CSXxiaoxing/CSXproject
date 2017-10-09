@@ -30,6 +30,10 @@
     color: #666; }
   #indexTop .l {
     float: left; }
+    #indexTop .l li > i {
+      display: inline-block;
+      color: #222;
+      margin-right: 5px; }
   #indexTop .r {
     float: right; }
     #indexTop .r > li {

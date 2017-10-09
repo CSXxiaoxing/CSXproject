@@ -8,6 +8,7 @@
 	$sql = "select * from user where id=$id";
 
 	// 利用sql语句查询数据库
+	
 	// 查询结果集
 	$result = $conn->query($sql);
 

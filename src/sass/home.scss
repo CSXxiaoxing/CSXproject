@@ -21,8 +21,13 @@
             .bn img{height: 400px;width: 765px; position:absolute;left:230px;}
         }}
         // 页码
-        .yema{position:absolute;bottom:12px;left:360px;height: 16px;
-            span{width:8px;height:8px;border-radius:50%;background:#333;display:inline-block;margin-right: 5px;}}
+        .yema{position:absolute;bottom:12px;left:260px;height: 16px;
+            span{width:25px;height:25px;border-radius:50%;background:#666;display:inline-block;margin-right: 9px;text-align:center;line-height:25px;color:#FFF;cursor:pointer;}
+            span.atkou{
+                background:  red;
+            }
+
+        }
     }
     .guanbo{
         padding-left:250px;
