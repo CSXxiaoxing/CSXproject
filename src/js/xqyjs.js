@@ -163,25 +163,23 @@ define(['jquery'],function($){
         var ck = document.cookie.split('; ');
         // 数量更新
         var nnn = 0;
+        var jia = '';
         for(var i=0 ; i<ck.length ; i++){
             if(ck[i].split('=')[0] === 'carid'){
-                if(ck[i].split('=')[1] === idid){
-                    for(var j=0; j<ck.length;j++){
-                        if(ck[j].split('=')[0] === 'number'){
-                            nnn=ck[j].split('=')[1]
-                            break;
-                        }
-                    }
-                    break;
-                }
+                jia = ck[i].split('=')[1]
+            }
+            if(ck[i].split('=')[0] === 'number'){
+                nnn = ck[i].split('=')[1]
             }
         }
         // 存cookie// 数量// 保存15天
         var number = $('#xqy .car input').val();
-        number = Number(number)+nnn;
+        number = Number(number)+Number(nnn);
         var date = new Date();
         date.setDate(date.getDate()+15);
-        
+        if(jia!=''){
+            idid = idid+'+'+jia;
+        }
         document.cookie='carid='+idid+';path=/;expires='+date.toString();
         document.cookie='number='+number+';path=/;expires='+date.toString();
         // cookie写入完成，加入购物车效果↓
@@ -189,7 +187,7 @@ define(['jquery'],function($){
         var T = $('.p01_l .img')[0].offsetTop;
         $('.p01_l').append($('.p01_l .img img:visible').clone(true,true).addClass('zanshi').css({'left':L,'top':T}).animate({left:1000,top:-10},1000,function(){
             $(this).hide(1000)
-            var c = Number($('.goucar span').html())+number
+            var c = Number($('.goucar span').html())+Number($('.car input').val())
             $('.goucar span').html(c)
             var car = Number($('.goucar span').html())
             document.cookie='car='+car+';path=/;expires='+date.toString();
