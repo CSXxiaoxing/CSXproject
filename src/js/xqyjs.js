@@ -163,6 +163,7 @@ define(['jquery'],function($){
         var ck = document.cookie.split('; ');
         // 数量更新
         var nnn = 0;
+        var nnn2 = 0;
         var jia = '';
         for(var i=0 ; i<ck.length ; i++){
             if(ck[i].split('=')[0] === 'carid'){
@@ -170,6 +171,8 @@ define(['jquery'],function($){
             }
             if(ck[i].split('=')[0] === 'number'){
                 nnn = ck[i].split('=')[1]
+            }if(ck[i].split('=')[0] === idid+'number'){
+                nnn2 = ck[i].split('=')[1]
             }
         }
         // 存cookie// 数量// 保存15天
@@ -177,11 +180,15 @@ define(['jquery'],function($){
         number = Number(number)+Number(nnn);
         var date = new Date();
         date.setDate(date.getDate()+15);
+        var cid = idid;
         if(jia!=''){
-            idid = idid+'+'+jia;
+            cid = idid+'+'+jia;
         }
-        document.cookie='carid='+idid+';path=/;expires='+date.toString();
+        document.cookie='carid='+cid+';path=/;expires='+date.toString();
         document.cookie='number='+number+';path=/;expires='+date.toString();
+        var number2 = Number(nnn2) + Number(number);
+        document.cookie=idid+'number='+number2+';path=/;expires='+date.toString();
+
         // cookie写入完成，加入购物车效果↓
         var L = $('.p01_l .img')[0].offsetLeft;
         var T = $('.p01_l .img')[0].offsetTop;
